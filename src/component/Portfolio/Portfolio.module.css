@@ -1,0 +1,8 @@
+.flex {
+    display: flex;
+}
+@media(min-width: 220px) and  (max-width: 450px){
+    .flex{
+        display: grid;
+    }
+}
