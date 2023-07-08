@@ -14,31 +14,27 @@ export const Nav =()=> {
                 <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a href="#home" className="nav-link">Home</a>
+                            <a href="#home" className="nav-link">Главная</a>
                         </li>
+
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#resume" className="nav-link">Resume</a>
+                            <a href="#resume" className="nav-link">Резюме</a>
                         </li>
                     </ul>
                     <ul className="navbar-nav brand">
                         <img src={avatar} alt="" className="brand-img"/>
                             <li className="brand-txt">
-                                <h5 className="brand-title">John Doe</h5>
-                                <div className="brand-subtitle">Web Designer | Developer</div>
+                                <h5 className="brand-title"></h5>
+                                <div className="brand-subtitle"> Developer</div>
                             </li>
                     </ul>
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a href="#portfolio" className="nav-link">Portfolio</a>
+                            <a href="#portfolio" className="nav-link">Портфолио</a>
                         </li>
-                        <li className="nav-item">
-                            <a href="#blog" className="nav-link">Blog</a>
-                        </li>
+
                         <li className="nav-item last-item">
-                            <a href="#contact" className="nav-link">Contact</a>
+                            <a href="#contact" className="nav-link">Контакты</a>
                         </li>
                     </ul>
                 </div>
