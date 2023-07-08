@@ -1,7 +1,8 @@
 import s from './Blog6.module.css'
 import emailjs from '@emailjs/browser';
 import {useRef} from "react";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export const Blog6=()=> {
     const form = useRef();
 
@@ -9,10 +10,10 @@ export const Blog6=()=> {
         e.preventDefault();
 
         emailjs.sendForm('service_bhkt5rd', 'template_3wdxxn4', e.target, 'tiuIIy86QQtHVP-YA')
-            .then((result) => {
-                console.log(result.text);
+             .then((result) => {
+                toast.success('Письмо отправлено корректно')
             }, (error) => {
-                console.log(error.text);
+                toast.error('Произошла ошибка')
             });
         e.target.reset()
     };
@@ -36,4 +37,5 @@ export const Blog6=()=> {
     </form>
 </div>
         </div>
+        <ToastContainer/>
 </div>}
