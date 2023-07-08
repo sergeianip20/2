@@ -4,34 +4,45 @@ export const ResumeSection=()=> {
     return <div>
         <section className="section" id="resume">
             <div className="container">
-                <h2 className="mb-5"><span className="text-danger">My</span> Resume</h2>
+                <h2 className="mb-5"><span className="text-danger">Мое</span> Резюме</h2>
                 <div className="row">
                     <div className="col-md-6 col-lg-4">
                         <div className="card">
                             <div className="card-header">
                                 <div className="mt-2">
-                                    <h4>Expertise</h4>
+                                    <h4>Опыт работы</h4>
                                     <span className="line"></span>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <h6 className="title text-danger">2017 - Present</h6>
-                                <p>UX Developer</p>
-                                <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-                                    recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae
-                                    saepe!.</p>
+                                <h6 className="title text-danger">2022 - Present</h6>
+                                <p>Frontend Developer</p>
+                                <p className="subtitle">Разработка и поддержка действующих приложений.
+                                    - Работа в большой команде,
+                                    - Проверка работоспособности приложения,
+                                    в рамках единичного инцидента.
+                                    - Решение вопросам авторизации и регистрации по REST API
+                                    - Разработка внутренного продукта для пользования
+                                    сотрудниками компании, основной стек при разработке
+                                    React / Redux
+                                    - Архитектурные решения проекта (расслоение пользовательского
+                                    интерфейса, BLL, DAL, Server);
+                                    - Надлежащее управление состоянием BLL с помощью Redux, Thunk
+                                    Toolkit и т. д.;
+                                    - Покрытие приложений тестами;</p>
                                 <hr/>
-                                    <h6 className="title text-danger">2016 - 2017</h6>
+                                    <h6 className="title text-danger">2018 - 2019</h6>
                                     <p>Front-end Developer</p>
-                                    <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid
-                                        repudiandae saepe!.</p>
+                                    <p className="subtitle">- Создание и ведение сайтов клиентов
+                                        - Работа с сервером с помощью ajax (CRUD
+                                        определение и обработка данных);
+                                        - Работа с авторизацией и регистрацией
+                                        - Архитектурные решения проекта (расслоение
+                                        пользовательского
+                                        интерфейса, BLL, DAL, Server);
+                                        - Покрытие приложений тестами.</p>
                                     <hr/>
-                                        <h6 className="title text-danger">2015 - 2016</h6>
-                                        <p>UX Designer</p>
-                                        <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid
-                                            repudiandae saepe!.</p>
+
                             </div>
                         </div>
                     </div>
@@ -39,28 +50,22 @@ export const ResumeSection=()=> {
                         <div className="card">
                             <div className="card-header">
                                 <div className="mt-2">
-                                    <h4>Education</h4>
+                                    <h4>Образование</h4>
                                     <span className="line"></span>
                                 </div>
                             </div>
                             <div className="card-body">
                                 <h6 className="title text-danger">2022 - Present</h6>
-                                <p>B.E Computer Engineering</p>
-                                <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-                                    corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam
-                                    at.</p>
+                                <p>IT-INCUBATOR</p>
+                                <p className="subtitle">Frontend Developer</p>
                                 <hr/>
                                     <h6 className="title text-danger">2017 - 2021</h6>
-                                    <p>Diploma in Computer Engineering</p>
-                                    <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-                                        id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid
-                                        repudiandae saepe!.</p>
+                                    <p>Самарский Государтсвенный  Экономический Университет </p>
+                                    <p className="subtitle">Финаесы и кредит</p>
                                     <hr/>
                                         <h6 className="title text-danger">2013 - 2017</h6>
-                                        <p>High School Degree</p>
-                                        <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid
-                                            repudiandae saepe!.</p>
+                                        <p>Самарский Государтсвенный Колледж</p>
+                                        <p className="subtitle">Специалист Банковского дела</p>
 
                             </div>
                         </div>
