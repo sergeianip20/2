@@ -12,7 +12,7 @@ export const SectionTwo=()=> {
                             </div>
                             <div className="col-7 text-left py-3">
                                 <h1 className="text-danger font-weight-bold font40">100</h1>
-                                <p className="text-light mb-1">Hours Worked</p>
+                                <p className="text-light mb-1">Отработанные часы</p>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ export const SectionTwo=()=> {
                             </div>
                             <div className="col-7 text-left py-3">
                                 <h1 className="text-danger font-weight-bold font40">3</h1>
-                                <p className="text-light mb-1">Project Finished</p>
+                                <p className="text-light mb-1">Завершенных проектов</p>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export const SectionTwo=()=> {
                             </div>
                             <div className="col-7 text-left py-3">
                                 <h1 className="text-danger font-weight-bold font40">300</h1>
-                                <p className="text-light mb-1">Coffee Drinked</p>
+                                <p className="text-light mb-1">Перерыров на кофе</p>
                             </div>
                         </div>
                     </div>
