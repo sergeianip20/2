@@ -3,7 +3,7 @@ import '../../css/themify-icons.css'
 export const Header=()=> {
     return <div>
         <a href="components.html" className="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-            className="ti-shift-left-alt"></i> Components</a>
+            className="ti-shift-left-alt"></i>Компоненты</a>
         <header className="header">
             <div className="container">
                 <ul className="social-icons pt-3">
