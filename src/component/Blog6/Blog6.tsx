@@ -20,7 +20,7 @@ export const Blog6=()=> {
     return   <div className={s.blog6}>
         <div className="col-lg-8">
         <div className="contact-form-card">
-            <h4 className="contact-title">Send a message</h4>
+            <h4 className="contact-title">Отправить сообщения</h4>
             <form onSubmit={sendEmail} action="">
                 <div className="form-group">
                     <input  className="form-control" type="text"    name={'to_name'} placeholder="Name *" required/>
