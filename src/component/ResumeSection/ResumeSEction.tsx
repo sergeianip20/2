@@ -61,7 +61,7 @@ export const ResumeSection=()=> {
                                 <hr/>
                                     <h6 className="title text-danger">2017 - 2021</h6>
                                     <p>Самарский Государтсвенный  Экономический Университет </p>
-                                    <p className="subtitle">Финаесы и кредит</p>
+                                    <p className="subtitle">Финансы и кредит</p>
                                     <hr/>
                                         <h6 className="title text-danger">2013 - 2017</h6>
                                         <p>Самарский Государтсвенный Колледж</p>
@@ -74,7 +74,7 @@ export const ResumeSection=()=> {
                         <div className="card">
                             <div className="card-header">
                                 <div className="pull-left">
-                                    <h4 className="mt-2">Skills</h4>
+                                    <h4 className="mt-2">Навыки</h4>
                                     <span className="line"></span>
                                 </div>
                             </div>
@@ -114,17 +114,17 @@ export const ResumeSection=()=> {
                         <div className="card">
                             <div className="card-header">
                                 <div className="pull-left">
-                                    <h4 className="mt-2">Languages</h4>
+                                    <h4 className="mt-2">Языки</h4>
                                     <span className="line"></span>
                                 </div>
                             </div>
                             <div className="card-body pb-2">
-                                <h6>English</h6>
+                                <h6>Англинский </h6>
                                 <div className="progress mb-3">
                                     <div className="progress-bar bg-danger" role="progressbar" style={{width: '20%'}}
                                          ></div>
                                 </div>
-                                <h6>Russia</h6>
+                                <h6>Русский</h6>
                                 <div className="progress mb-3">
                                     <div className="progress-bar bg-danger"  role="progressbar" style={{width: '99%'}}
                                          ></div>
