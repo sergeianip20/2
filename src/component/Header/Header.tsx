@@ -17,7 +17,7 @@ export const Header=()=> {
                     </li>
                     <li className="social-item"><a className="social-link text-light" href="#"><i
                         className="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-github"
+                    <li className="social-item"><a className="social-link text-light" href="https://github.com/sergeianip20"><i className="ti-github"
                                                                                                   aria-hidden="true"></i></a>
                     </li>
                 </ul>
